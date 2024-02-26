@@ -13,28 +13,39 @@
                 Placeholder="Name"
                 TextColor="Black"
                 FontSize="20"
-                WidthRequest="450"/>
+                WidthRequest="450"
+                Text="{Binding Details.Name}"/>
 
             <Entry
                 x:Name="SurnameEntry"
                 Placeholder="Surname"
                 TextColor="Black"
                 FontSize="20"
-                WidthRequest="450"/>
+                WidthRequest="450"
+                Text="{Binding Details.Surname}"/>
 
             <Entry
                 x:Name="EmailEntry"
                 Placeholder="Email Address"
                 TextColor="Black"
                 FontSize="20"
-                WidthRequest="450"/>
+                WidthRequest="450"
+                Text="{Binding Details.EmailAddress}"/>
 
             <Entry
                 x:Name="PasswordEntry"
                 Placeholder="Password"
                 TextColor="Black"
                 FontSize="20"
-                WidthRequest="450"/>
+                WidthRequest="450"
+                Text="{Binding Details.Password}"/>
+
+            <Entry
+                Placeholder="Bio"
+                Keyboard="Text"
+                Opacity="100"
+                TextColor="Black"
+                Text="{Binding Details.Bio}"/>
 
             <StackLayout 
                 Orientation="Horizontal"
